@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   enable-background="new 0 0 512 512"
+   height="24"
+   viewBox="0 0 24 24"
+   width="24"
+   version="1.1"
+   sodipodi:docname="subscription-black.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="836"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="20.85965"
+     inkscape:cx="13.928167"
+     inkscape:cy="14.172745"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4" />
+  <g
+     id="g4"
+     transform="matrix(0.04036071,0,0,0.04036071,1.3667368,1.4534635)">
+    <path
+       d="M 446,40 H 400 V 16 C 400,7.164 392.837,0 384,0 375.163,0 368,7.164 368,16 V 40 H 144 V 16 C 144,7.164 136.837,0 128,0 119.163,0 112,7.164 112,16 V 40 H 66 C 29.607,40 0,69.607 0,106 v 340 c 0,36.393 29.607,66 66,66 h 380 c 36.393,0 66,-29.607 66,-66 V 106 C 512,69.607 482.393,40 446,40 Z M 66,72 h 46 v 16 c 0,8.836 7.163,16 16,16 8.837,0 16,-7.164 16,-16 V 72 h 224 v 16 c 0,8.836 7.163,16 16,16 8.837,0 16,-7.164 16,-16 V 72 h 46 c 18.748,0 34,15.252 34,34 v 38 H 32 V 106 C 32,87.252 47.252,72 66,72 Z M 446,480 H 66 C 47.252,480 32,464.748 32,446 L 30.812225,186.68998 483.56333,185.5022 480,446 c -0.25643,18.74625 -15.252,34 -34,34 z"
+       id="path2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scsssccssscssssssssscsssccssscssccsssssccss" />
+  </g>
+</svg>

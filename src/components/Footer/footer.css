@@ -1,0 +1,30 @@
+.footer {
+  width: 100%;
+  background-image: url("../../footer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: white;
+  text-align: center;
+  height: 300px;
+}
+.footerlogo {
+  margin: 0;
+}
+.footernav {
+  width: 100%;
+  margin-top: 50px;
+  text-align: left;
+}
+.footernav div {
+  display: inline;
+  float: left;
+  width: 20%;
+}
+.footernav div ul {
+  list-style-type: none;
+}
+.footernav div img {
+  margin-right: 2px;
+}

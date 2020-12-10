@@ -1,0 +1,50 @@
+.widget {
+  width: 40vw;
+  height: 80vh;
+  position: relative;
+  display: block;
+}
+.rcw-conversation-container > .rcw-header {
+  background-color: #e7f5f9;
+}
+
+.rcw-widget-container {
+  position: relative;
+  min-width: 600px;
+}
+.rcw-header > .rcw-title {
+  color: #6c6465;
+  margin-left: -20%;
+}
+.rcw-header {
+  max-height: 50px;
+}
+
+.rcw-header > span {
+  display: inline;
+  position: fixed;
+  margin-left: 70%;
+}
+.rcw-widget-container > button {
+  padding: 15px;
+  background-color: #ffc400;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: bold;
+  max-width: 300px;
+  position: fixed;
+  top: 100px;
+  right: 50px;
+}
+.contactInfo {
+  padding: 10px;
+  background-color: #6c6465;
+  color: #fff;
+  border: none;
+  display: inline;
+}
+.rcw-messages-container.rcw-message.rcw-response {
+  background-color: #fef0f7;
+}

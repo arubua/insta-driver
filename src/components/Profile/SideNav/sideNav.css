@@ -1,0 +1,43 @@
+.sideNav {
+  min-width: 220px;
+  background-color: purple;
+  color: #fff;
+  padding: 10px 5px;
+  max-height: 70vh;
+}
+.sideNav a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px 0 15px 0;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+.sideNav a:hover {
+  background-color: #fff;
+  color: #000;
+}
+img {
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 7px;
+  left: 5px;
+}
+.user-icon > .black {
+  display: none;
+}
+.user-icon:hover > .white {
+  display: none;
+}
+.user-icon:hover > .black {
+  display: inline;
+}
+span {
+  position: relative;
+  left: 15px;
+  font-size: smaller;
+}
+.sideNav ul {
+  list-style-type: none;
+  padding: 0;
+}
