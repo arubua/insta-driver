@@ -1,11 +1,25 @@
-import React from 'react';
-import SideNav from './SideNav/sideNav'
-import SearchBar from './SearchBar/searchbar'
-import Chat from './Chat/chat'
+import React, {useEffect, useState} from 'react';
+import axios from 'axios';
+
+import SideNav from '../SideNav/sideNav'
+import SearchBar from '../SearchBar/searchbar'
+import Messages from '../Messages/Messages'
 import './profile.css'
 
 
+
 const Profile = () => {
+
+    const [messages, setMessages] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const response = await axios.get("http://localhost:4000/messages");
+            setMessages(response.data)
+            
+        }
+        fetchData();
+    },[])
 
 
     return (
@@ -13,7 +27,10 @@ const Profile = () => {
             <SideNav className="sidenav"/>
             <div className="content2">
                 <SearchBar/>
-                <Chat/>
+                <Messages 
+                messages={messages}
+                />
+                
             </div>
             
         </div>

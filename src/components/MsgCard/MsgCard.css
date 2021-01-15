@@ -1,0 +1,25 @@
+.msg-container {
+  border: 1px solid black;
+
+  margin: 2%;
+}
+.chat-id {
+  position: relative;
+  right: 0px;
+  width: 110px;
+  background: moccasin;
+  clear: left;
+}
+.avatar {
+  float: left;
+  margin-right: 10px;
+}
+.msg {
+  margin-left: 2%;
+}
+.msg-subject {
+  font-weight: bold;
+}
+.msg-content {
+  font-size: smaller;
+}
