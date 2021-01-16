@@ -7,7 +7,7 @@ export default function Messages(props) {
         height:'70vh',
         overflow:'auto',
         background:'#fff',
-       
+        padding:10
     }
     return (
         <div style={
